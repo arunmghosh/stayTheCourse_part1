@@ -15,6 +15,36 @@ There are two modes of gameplay available: console and GUI.
 The input to the DQN is the scanner data (distance to next obstacle, height of that obstacle, width of that obstacle). The output is a choice: rove or jump. The exact specifications of those moves are determined by the scanner data, not chosen by the model. This prevents training instability (input and output dimensions are constant as the rover is upgraded). 
 
 ### Training & Evaluation
-The DQN model is training by testing the rover on randomly generated training courses. Hitting an obstacle causes damage, a negative reward to the model. The train-validation-test split is 70-15-15. The user is given the training and validation loss curves in case of policy collapse, so they can make adjustments and retrain the model. Soft updates to the target network are used to prevent instability from the deadly triad in machine learning (bootstrapping, function approximation, off-policy learning).
+The DQN model is training by testing the rover on randomly generated training courses. Hitting an obstacle causes damage, a negative reward to the model. The train-validation-test split is 70-15-15. The user is given the training and validation loss curves in case of policy collapse, so they can make adjustments and retrain the model. Soft updates to the target network are used to prevent instability from the deadly triad in machine learning (bootstrapping, function approximation, off-policy learning). The DQN itself has linear layers with ReLU activation and one hidden layer. 
 
 The model is evaluated on the test set after training. If at least 80% of the test runs complete without any damage, the user is advised to run a mission. Otherwise, they are advised to do more training or make adjustments. 
+
+## GUI
+![User Interface](stc_p1_gui.png)
+
+## How To Use
+### 1. Start the Simulation
+Play an interactive CLI game against the trained Deep Q-Network (DQN) agent:
+
+```bash
+python3 simulation.py
+```
+
+### 2. Launch the GUI
+Choose "Launch GUI" after starting the simulation or:
+
+```bash
+python3 gui.py
+```
+
+### 3. Troubleshooting
+If you run into errors with the simulation and/or the GUI, make sure these files run without errors:
+
+```bash
+# Unittest suite for simulation
+python3 test_simulation.py
+
+# Diagnose training instability or gui loading errors
+python3 train_diagnostic.py
+python3 gui_troubleshoot.py
+```
