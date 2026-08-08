@@ -1,0 +1,103 @@
+=================================================================
+                 STAY THE COURSE - MISSION LOG                   
+ Session Started: 2026-08-03 12:59:42
+=================================================================
+
+--- MISSION #1 (2026-08-03 12:59:57) ---
+Rover Configuration : Scan=2, Max Height=1, Max Length=2
+Outcome             : FAILED
+Final Position      : Column 10 / 100
+Steps Taken         : 6
+Crash Coordinate    : Column 10, Row 2
+Summary             : MISSION FAILED: Rover hit an obstacle at column 10, row 2 on step 6.
+-----------------------------------------------------------------
+
+--- MISSION #2 (2026-08-03 13:00:21) ---
+Rover Configuration : Scan=2, Max Height=2, Max Length=2
+Outcome             : FAILED
+Final Position      : Column 32 / 100
+Steps Taken         : 18
+Crash Coordinate    : Column 32, Row 1
+Summary             : MISSION FAILED: Rover hit an obstacle at column 32, row 1 on step 18.
+-----------------------------------------------------------------
+
+--- MISSION #3 (2026-08-03 13:00:53) ---
+Rover Configuration : Scan=2, Max Height=3, Max Length=2
+Outcome             : FAILED
+Final Position      : Column 32 / 100
+Steps Taken         : 18
+Crash Coordinate    : Column 32, Row 1
+Summary             : MISSION FAILED: Rover hit an obstacle at column 32, row 1 on step 18.
+-----------------------------------------------------------------
+
+--- MISSION #4 (2026-08-03 13:01:24) ---
+Rover Configuration : Scan=2, Max Height=4, Max Length=2
+Outcome             : FAILED
+Final Position      : Column 32 / 100
+Steps Taken         : 18
+Crash Coordinate    : Column 32, Row 1
+Summary             : MISSION FAILED: Rover hit an obstacle at column 32, row 1 on step 18.
+-----------------------------------------------------------------
+
+--- MISSION #5 (2026-08-03 13:01:51) ---
+Rover Configuration : Scan=2, Max Height=5, Max Length=2
+Outcome             : FAILED
+Final Position      : Column 32 / 100
+Steps Taken         : 18
+Crash Coordinate    : Column 32, Row 1
+Summary             : MISSION FAILED: Rover hit an obstacle at column 32, row 1 on step 18.
+-----------------------------------------------------------------
+
+--- MISSION #6 (2026-08-03 13:04:35) ---
+Rover Configuration : Scan=3, Max Height=5, Max Length=2
+Outcome             : FAILED
+Final Position      : Column 33 / 100
+Steps Taken         : 18
+Crash Coordinate    : Column 33, Row 5
+Summary             : MISSION FAILED: Rover hit an obstacle at column 33, row 5 on step 18.
+-----------------------------------------------------------------
+
+--- MISSION #7 (2026-08-03 13:05:11) ---
+Rover Configuration : Scan=3, Max Height=5, Max Length=3
+Outcome             : FAILED
+Final Position      : Column 61 / 100
+Steps Taken         : 28
+Crash Coordinate    : Column 61, Row 6
+Summary             : MISSION FAILED: Rover hit an obstacle at column 61, row 6 on step 28.
+-----------------------------------------------------------------
+
+--- MISSION #8 (2026-08-03 13:05:46) ---
+Rover Configuration : Scan=3, Max Height=6, Max Length=3
+Outcome             : FAILED
+Final Position      : Column 61 / 100
+Steps Taken         : 25
+Crash Coordinate    : Column 61, Row 7
+Summary             : MISSION FAILED: Rover hit an obstacle at column 61, row 7 on step 25.
+-----------------------------------------------------------------
+
+--- MISSION #9 (2026-08-03 13:06:35) ---
+Rover Configuration : Scan=3, Max Height=7, Max Length=3
+Outcome             : FAILED
+Final Position      : Column 75 / 100
+Steps Taken         : 32
+Crash Coordinate    : Column 75, Row 1
+Summary             : MISSION FAILED: Rover hit an obstacle at column 75, row 1 on step 32.
+-----------------------------------------------------------------
+
+--- MISSION #10 (2026-08-03 13:07:19) ---
+Rover Configuration : Scan=4, Max Height=7, Max Length=3
+Outcome             : FAILED
+Final Position      : Column 75 / 100
+Steps Taken         : 36
+Crash Coordinate    : Column 75, Row 1
+Summary             : MISSION FAILED: Rover hit an obstacle at column 75, row 1 on step 36.
+-----------------------------------------------------------------
+
+--- MISSION #11 (2026-08-03 13:08:50) ---
+Rover Configuration : Scan=4, Max Height=7, Max Length=4
+Outcome             : SUCCESS
+Final Position      : Column 100 / 100
+Steps Taken         : 36
+Summary             : MISSION SUCCESS! Rover navigated all 100 units with 0 damage in 36 steps.
+-----------------------------------------------------------------
+
